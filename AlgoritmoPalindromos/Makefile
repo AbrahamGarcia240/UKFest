@@ -1,6 +1,6 @@
 PROYECTO=main
 CFLAGS=-Wall
-LFLAGS=
+LFLAGS= -pthread
 CC=g++
 
 all: $(PROYECTO)
