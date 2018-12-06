@@ -49,7 +49,7 @@ int main(int argc, char const *argv[])
 
 	//testing de los hilos
 	
-	thread th1(function,aux,1,2,a),th2(function,aux,2,4,b),th3(function,aux,3,5,c),th4(function,aux,4,6,d);
+	thread th1(function,aux,1,2,a),th2(function,aux,2,4,b),th3(function,aux,3,4,c),th4(function,aux,4,5,d);
 	th1.join();
 	th2.join();
 	th3.join();

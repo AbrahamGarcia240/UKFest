@@ -184,7 +184,7 @@ void Servidor::analizarCadenota(string input){
 	    	printf ("%s\n", p);
 	    	aux=aux+" "+string(p);
 	    	//verifico si es palindromo
-	    	sinespacios=Servidor::quitaEspacios(aux);
+	    	/*sinespacios=Servidor::quitaEspacios(aux);
 	    	mayusculas=Servidor::todoAMayusculas(sinespacios);
 	    	if(Servidor::esPalindromo(mayusculas)){
 	    		cout<<"palindromo"<<endl;
@@ -192,7 +192,7 @@ void Servidor::analizarCadenota(string input){
 	    	}
 	    	else{
 	    		cout<<aux<<": NO ES palindromo"<<endl;
-	    	}
+	    	}*/
 
 	    	i++;
 		}
